@@ -22,7 +22,7 @@ int main() {
   for (auto &t : tests) {
     bool ok = t.fn();
     if (!ok)
-      failures++;
+      return 1;
   }
-  return failures ? 1 : 0;
+  return 0;
 }
