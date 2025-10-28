@@ -10,5 +10,5 @@ Get cmake.
 mkdir build
 cd build
 cmake ..
-cmake --build .
+cmake --build . && ctest
 ```
