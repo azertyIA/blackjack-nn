@@ -1,2 +1,0 @@
-/usr/bin/ar qc libnn.a CMakeFiles/nn.dir/mat.cpp.o CMakeFiles/nn.dir/nn.cpp.o
-/usr/bin/ranlib libnn.a
