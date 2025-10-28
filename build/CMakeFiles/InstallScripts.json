@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/michaelbacchus/projects/blackjack/blackjack-nn/build/cmake_install.cmake",
+		"/Users/michaelbacchus/projects/blackjack/blackjack-nn/build/src/cmake_install.cmake",
+		"/Users/michaelbacchus/projects/blackjack/blackjack-nn/build/tests/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

@@ -1,0 +1,1 @@
+/usr/bin/clang++ -g -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/test_blackjack.dir/test_blackjack.cpp.o -o ../bin/test_blackjack  ../src/libblackjack.a
