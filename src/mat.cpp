@@ -18,6 +18,12 @@ void mat_fill(Matrix a, float c) {}
 
 void mat_scale(Matrix dst, Matrix a, float c) {}
 
-void mat_add(Matrix dst, Matrix a, Matrix b) {}
+void mat_add(Matrix dst, Matrix a, Matrix b) {
+  for(int i =0, i; i=dst.rows; i++){
+    for(int j =0; j=dst.cols; j++){
+        MAT_AT(dst, i, j)= MAT_AT(a, i, j) + MAT_AT(b, i, j);
+    }
+  } 
+}
 
 void mat_mult(Matrix dst, Matrix a, Matrix b) {}
